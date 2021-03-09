@@ -24,8 +24,6 @@ export const configuration = () => ({
         type: 'postgres',
         database: 'postgres',
         dropSchema: false,
-        // const IS_PRODUCTION = environment === 'production';
-        // const entities = [__dirname + `${IS_PRODUCTION ? '/dist/**/*.entity{.ts,.js}' : '/**/*.entity{.ts,.js}'}`];
         entities: [__dirname + '/**/*.entity{.ts,.js}'],
         host: dbHost,
         logging: false,

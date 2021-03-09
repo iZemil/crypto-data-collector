@@ -31,4 +31,5 @@ Example API request: GET https://min-api.cryptocompare.com/data/pricemultifull?f
 
 ## COMMANDS:
 
--   run dev server `npm run dev`
+-   run dev server with docker database `npm run dev`
+-   run production `docker-compose --env-file ./.env -f ./docker-compose.prod.yml up`
